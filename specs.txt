@@ -1,0 +1,11 @@
+url : http://northgate.liverpool.gov.uk/PlanningExplorer17/GeneralSearch.aspx
+
+field setting : Search Date Type -> Date Received / Decision Date  
+		Search Dates by Days -> selected
+		Set Number of Days -> 7
+		
+	-> scrape all data from the search result tables (page 1 ~ n)
+
+result : 1. output 2 xls files - one for "Date Received" , one for "Decision Date"
+	 2. must have easy-to-use UI ,  just press "go" button , and will produce 2 xls files.
+	 3. must run on mac OS.
